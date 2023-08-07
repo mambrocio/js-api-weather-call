@@ -34,7 +34,13 @@ html{
 /* Body Content */
 
 body{
-    background-color: #150356;
+    background: rgb(253,93,35);
+background: -moz-linear-gradient(0deg, rgba(253,93,35,1) 0%, rgba(107,55,68,1) 25%, rgba(39,29,92,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(253,93,35,1) 0%, rgba(107,55,68,1) 25%, rgba(39,29,92,1) 100%);
+background: linear-gradient(0deg, rgba(253,93,35,1) 0%, rgba(107,55,68,1) 25%, rgba(39,29,92,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fd5d23",endColorstr="#271d5c",GradientType=1);
+    background-repeat: no-repeat;
+    padding-bottom: 520px;
 }
 
 .crt::before {
@@ -71,19 +77,24 @@ header{
 .logo img{
     border-radius: 8px;
     height: 200px;
-    margin-left: 26%;
+    margin-left: 26.5%;
+}
+
+.weather-space{
+    display: flex;
 }
 
 .search{
     margin-top: 40px;
-    display: flex;
+    width: 22%;
 
 }
 
 .search-form{
-    border: 4px solid aliceblue;
-    border-radius: 12px;
+    border: 4px solid #3a6eb9;
     padding: 16px;
+    background-color: #243762;
+    border-style: inset outset;
 }
 
 label{
@@ -92,7 +103,38 @@ label{
     font-weight: 400;
     color: aliceblue;
 }
+#city{
+    font-family: 'IBM Plex Serif', serif;
+    height: 40px;
+    font-size: 28px;
+    border: 4px solid #3a6eb9;
+    border: 0;
+    width: 280px;
+    padding: 15px;
+    margin-top: 30px;
+}
 
 input:focus{
     outline: none;
+}
+
+#submit{
+    margin-top: 20px;
+    width: 90px;
+    font-size: 23px;
+    font-family: 'IBM Plex Serif', serif;
+    padding: 12px;
+    border-style: outset;
+
+}
+
+.weather{
+    border: 4px solid #3a6eb9;
+    padding: 16px;
+    width: 60%;
+    background-color: #243762;
+    border-style: inset outset;
+    margin-left: 5%;
+    height: 130px;
+    
 }
