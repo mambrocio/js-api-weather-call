@@ -40,7 +40,7 @@ background: -webkit-linear-gradient(0deg, rgba(253,93,35,1) 0%, rgba(107,55,68,1
 background: linear-gradient(0deg, rgba(253,93,35,1) 0%, rgba(107,55,68,1) 25%, rgba(39,29,92,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fd5d23",endColorstr="#271d5c",GradientType=1);
     background-repeat: no-repeat;
-    padding-bottom: 520px;
+    padding-bottom: auto;
 }
 
 .crt::before {
@@ -82,6 +82,7 @@ header{
 
 .weather-space{
     display: flex;
+    padding-bottom: 97px;
 }
 
 .search{
@@ -135,6 +136,7 @@ input:focus{
     background-color: #243762;
     border-style: inset outset;
     margin-left: 5%;
-    height: 130px;
+    margin-top: 30px;
+    height: 38em;
     
 }
