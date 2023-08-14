@@ -72,7 +72,8 @@ function fetchWeather(){
                 const date = new Date(days[i].dt_txt).toLocaleDateString('en-US');
                 const formatedDate = date.split('/').join('-');
 
-                console.log(formatedDate);
+                console.log(formatedDate);','
+                
                 }
             })
             
