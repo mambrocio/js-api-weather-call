@@ -34,11 +34,13 @@ I decided to sylistially make the website reminiscent of the 90's internet and t
 
 ## Success 
 
-I mamanged to use the api and fetch the weather 
+I mananged to use the api and fetch the weather 
 
 # Missing
 
-Failed to implement the local storage functionality. 
+Failed to implement the local storage functionality and responsiveness.
+
+I wanted to implement a ENTER key press event but for some reason that did not function.
 
 ## Additional Links
 
