@@ -30,7 +30,7 @@ function fetchWeather(event){
     }
 
 
-    let locName = `http://api.openweathermap.org/geo/1.0/direct?q=` + city + `&appid=238eea4f33d97368ff0040161d3e7379`;
+    let locName = `https://api.openweathermap.org/geo/1.0/direct?q=` + city + `&appid=238eea4f33d97368ff0040161d3e7379`;
 
 
         fetch(locName)
@@ -69,7 +69,7 @@ function fetchWeather(event){
 
                 for(i = 0; i < days.length; i++){
 
-                let dayIcon = "http://openweathermap.org/img/w/" + days[i].weather[0].icon + ".png";
+                let dayIcon = "https://openweathermap.org/img/w/" + days[i].weather[0].icon + ".png";
 
                 const date = new Date(days[i].dt_txt).toLocaleDateString('en-US');
                 const formatedDate = date.split('/').join('-');
