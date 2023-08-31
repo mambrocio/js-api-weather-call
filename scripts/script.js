@@ -48,7 +48,7 @@ function fetchWeather(event){
 
                 let weatherAPI = `https:api.openweathermap.org/data/2.5/forecast?&units=imperial&lat=`+ cityLat + `&lon=` + cityLon + `&appid=238eea4f33d97368ff0040161d3e7379`;
                 
-                return fetch(weatherAPI);
+                return fetch(weatherAPI)
             })
 
             .then(function(response){
